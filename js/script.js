@@ -205,7 +205,6 @@ window.addEventListener('DOMContentLoaded', () => {
    });
 
 
-
    function postData(form) {
       form.addEventListener('submit', (e) => {
          e.preventDefault();
@@ -269,6 +268,7 @@ window.addEventListener('DOMContentLoaded', () => {
    fetch('http://localhost:3000/menu')
       .then(data => data.json())
       .then(res => console.log(res))
+
 
    //slider
    const slides = document.querySelectorAll('.offer__slide'),

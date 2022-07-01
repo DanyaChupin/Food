@@ -1,4 +1,4 @@
-import { getResourse } from '../services/services'
+import {getResourse} from '../services/services'
 
 function cards() {
   class MenuCard {

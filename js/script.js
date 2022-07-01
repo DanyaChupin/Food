@@ -15,9 +15,9 @@ window.addEventListener('DOMContentLoaded', () => {
   )
   modal('[data-modal]', '.modal')
   timer('.timer', '2022-09-11')
+  cards()
   calc()
   forms()
-
   slider({
     container:'.offer__slider',
     slide:'.offer__slide',
@@ -27,8 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
     currentCounter:'#current',
     wrapper: '.offer__slider-wrapper',
     field: '.offer__slider-inner'
-
   })
-  cards()
+
 
 })
